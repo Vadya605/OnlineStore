@@ -2,12 +2,7 @@ $(document).ready(function(){
     pagination();
 })
 
-
-
-
 var products=allProducts;
-
-
 function pasteData(data){
     data=sortPrice(data);
     $('.card-product').remove();

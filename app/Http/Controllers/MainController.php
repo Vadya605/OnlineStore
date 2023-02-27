@@ -16,7 +16,5 @@ class MainController extends Controller
                         'recommendations'=>Products::recommendations($userId));
                         
         return view('index', ['products'=>$products]);
-    }
-
-    
+    }   
 }

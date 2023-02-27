@@ -43,7 +43,6 @@ body{
 	font-size: 2.3em;
 	justify-content: center;
 	display: flex;
-	/* margin: 60px; */
     margin-top: 60px;
     margin-bottom: 40px;
 	font-weight: bold;
@@ -79,22 +78,10 @@ button:hover{
 	border-radius: 80% / 10%;
 	transform: translateY(-50px);
 	transition: .8s ease-in-out;
-	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
-
-	/* background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
-	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e); */
-
-    /* background-color: #0C3B6D; */
-
-
-    /* background-color: #eee; */
-
-    
+	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);    
 }
 
-/* input:-internal-autofill-selected{
-	background-color: #000;
-} */
+
 
 .form-login{
     display: flex;
@@ -103,11 +90,6 @@ button:hover{
     row-gap: 25px;
 }
 
-/* .form-login .input-box{
-    border: none;
-    background: #e0dede;
-
-} */
 
 .login label:not(.label-for-input-form){
 	color: #fff;
@@ -116,20 +98,13 @@ button:hover{
     transition: .8s ease-in-out;
     font-weight: 400;
 }
-/* 
-.login .label-for-input-form{
-	color: #573b8a;
 
-} */
 
 #chk:checked ~ .login{
 	transform: translateY(-450px);
-    /* background-color: #573b8a; */
 
 }
 #chk:checked ~ .login label:not(.label-for-input-form){
-    /* margin-top: 20px; */
-
 	transform: scale(.8);	
 }
 #chk:checked ~ .signup label:not(.label-for-input-form){
@@ -148,12 +123,6 @@ button:hover{
     align-items: center;
     width: 70%;
     height: 40px;
-	/* background: #e0dede; */
-    /* width: 70%;
-    height: 40px; */
-    /* background-color: #fff;  */
-    /* width: 80%; */
-    /* height: 50px;  */
 }
 
 
@@ -161,15 +130,11 @@ button:hover{
     font-size: 20px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
-	/* background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover; */
-    /* background-color: #2A2659; */
     position: absolute;
     transform: translateY(-50%);
     transform-origin: left center;
-	/* background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e); */
 
     top:50%;
-    /* left:5px; */
     width: 95%;
     pointer-events: none;
     transition: .3s ease-in-out;

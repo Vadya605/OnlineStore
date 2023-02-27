@@ -18,7 +18,6 @@ class ProductController extends Controller
         }
 
         return view('catalog', ['products'=>Products::getProductsAll(auth()->user()->id)]);
-        // return response()->json(Products::getProductsAll(auth()->user()->id));
     }
 
 

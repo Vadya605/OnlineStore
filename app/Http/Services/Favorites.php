@@ -4,7 +4,6 @@ namespace App\Http\Services;
 use Illuminate\Support\Facades\DB;
 class Favorites
 {
-
     public static function getAllProducts($user_id){
         $products=DB::select("SELECT products.id as product_id, TO_BASE64(photo.photo_product) as photo_product, products.name, products.price 
             FROM products 
@@ -14,8 +13,6 @@ class Favorites
             GROUP BY products.name");
         return $products;
     }
-
-
 
     public static function addProduct($user_id, $product_id){
         $product=DB::select('select id from favorites where product_id=? and user_id=?', [$product_id, $user_id]);
@@ -30,6 +27,4 @@ class Favorites
         DB::delete("delete from favorites where user_id=? AND product_id=?", [$user_id, $product_id]);
         return "Товар удален";
     }
-
-
 }

@@ -28,7 +28,6 @@
             <input type="text" placeholder="Поиск" id="search" class="input" name="txt" onmouseout=this.blur()>
         </form>
         <img src="/img/search (2).svg" alt="">
-        {{-- <i class="fas fa-search"></i> --}}
     </div> 
     @include('layouts.panel_profile')
 
@@ -152,50 +151,6 @@
 
 
     
-    {{-- <footer class="footer">
-        <div class="logo-footer">
-            <h1>SHOP</h1>
-        </div>
-        
-
-        <div class="footer-information">
-            <div class="footer-list">
-                <ul class="list">
-                    <li class="item-footer-list-header">Меню</li>
-                    <li class="item-footer-list"><a href="">Главная</a></li>
-                    <li class="item-footer-list"><a href="">Каталог</a></li>
-                    <li class="item-footer-list"><a href="">Контакты</a></li>
-                    <li class="item-footer-list"><a href="">О нас</a></li>
-                </ul>
-            </div>
-            <div class="footer-list">
-                <ul class="list">
-                    <li class="item-footer-list-header">Каталог</li>
-                    <li class="item-footer-list"><a href="">Телефоны</a></li>
-                    <li class="item-footer-list"><a href="">Зарядные уст-ва</a></li>
-                    <li class="item-footer-list"><a href="">Плантшеты</a></li>
-                </ul>
-            </div>
-            <div class="footer-list">
-                <ul class="list">
-                    <li class="item-footer-list-header">Контакты</li>
-                    <li class="item-footer-list"><a href="https://t.me/vadya605">Телеграм</a> </li>
-                    <li class="item-footer-list"><a href="https://www.instagram.com/invites/contact/?i=1439nysdqk661&utm_content=9rmoctx">Инстаграм</a></li>
-                    <li class="item-footer-list"><a href="https://kosmat3936@gmail.com">Почта</a></li>
-                    <li class="item-footer-list"><a href="">+375 (29) 611-61-08</a></li>
-                </ul>
-            </div>
-            <div class="footer-list">
-                <ul class="list">
-                    <li class="item-footer-list-header">Партнеры</li>
-                    <li class="item-footer-list"><a href="">Samsung</a></li>
-                    <li class="item-footer-list"><a href="">Apple</a></li>
-                    <li class="item-footer-list"><a href="">Huawei</a></li>
-                    <li class="item-footer-list"><a href="">Xiaomi</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>  --}}
     @include('layouts.footer')
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

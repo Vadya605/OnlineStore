@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/product.css">
     <link rel="stylesheet" href="/css/media.css">
@@ -18,7 +17,6 @@
 </head>
 <body>
     <script>
-        // var photos={!! json_encode($product['photos']) !!}
         var isInFavorites = {!! json_encode($product['is_in_favorites']) !!}
         var isAuth={!! json_encode(Auth::check()) !!}
     </script>
@@ -37,9 +35,6 @@
                 @endif
             </div>
         </div>
-        {{-- <div class="container-panel-buttons">
-            
-        </div> --}}
     </section>
         
     @include('message')
@@ -174,13 +169,8 @@
                                 </div>
                             </div>
                         @empty
-                            {{-- <span class="no-reviews">Нет отзывов, будьте первым</span> --}}
                         @endforelse
                     </div>
-                    {{-- <div class="owl-carousel for-reviews">
-                        
-                        <div></div>
-                    </div> --}}
                 </div>
                 <div class="give-review box-give-review box-full-description">
                     @if(Auth::check())

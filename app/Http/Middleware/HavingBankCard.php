@@ -18,9 +18,8 @@ class HavingBankCard
      */
     public function handle(Request $request, Closure $next)
     {
-        
         if(empty(BankCard::getCards(auth()->user()->id)[0]['cards'])){
-            return response('', 302);
+            return response('Необходимо привязать карту', 302);
         }
             
         return $next($request);

@@ -1,7 +1,6 @@
 $(document).ready(function(){
     if(!errors.length) return console.log('нет ошибок');
     errors.forEach(error => {
-        // alert('Введенные данные не прошли проверку, проверьте правильность ввода');
         alert(error);
     });
 })

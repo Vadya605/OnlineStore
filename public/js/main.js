@@ -8,10 +8,6 @@ owl.owlCarousel({
         1366:{
             margin:50
         },
-        // 900:{
-        //     margin: 10,
-        //     items: 1
-        // }
     }
 });
 

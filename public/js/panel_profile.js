@@ -41,16 +41,3 @@ $('.panel-profile').hover(function(){
 
 })
 
-
-// $('.exit-panel').click(()=>{
-//     alert('click');
-//     $.ajax({
-//         url: '/logout',         
-//         method: 'post',            
-//         dataType: 'text',
-//         data: {
-//             '_token': $('meta[name="csrf-token"]').attr('content'), 
-//         }
-//     })    
-// })
-

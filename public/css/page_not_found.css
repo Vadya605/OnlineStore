@@ -13,9 +13,6 @@ body{
     margin-bottom: 25px;
 }
 
-/* .container{
-    background-color: #16C19D;
-} */
 
 .section-main{
     padding-top: 30px;
@@ -25,19 +22,15 @@ body{
 }
 
 .section-main .container{
-    /* background-color: black; */
     display: flex;
     justify-content: center;
-    /* align-items: center; */
 }
 
 .phone{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* max-width: 665px; */
     width: 665px;
-    /* background-color: #fff; */
     background-image: url('../img/phone.png');
     background-repeat: no-repeat;
     height: 329px;

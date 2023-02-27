@@ -4,7 +4,6 @@ namespace App\Http\Services;
 use Illuminate\Support\Facades\DB;
 class Products
 {
-    
     public static function getProductsAll($user_id=0){
         $products=DB::select('SELECT products.id, TO_BASE64(photo.photo_product) as photo_product, products.name, products.price, type.name as type_name, IFNULL(favorites.id, false) as is_in_favorites from products 
             INNER JOIN type ON type.id=products.type_id
@@ -14,13 +13,10 @@ class Products
         return $products;
     }
 
-
     public static function getProduct($productId, $user_id=0){
         
         $product=DB::select("SELECT products.*, IFNULL(favorites.id, false) as is_in_favorites from products LEFT JOIN favorites 
                             ON favorites.product_id=products.id AND favorites.user_id=".$user_id." WHERE products.id=".$productId);
-        
-        
         return $product;
     }
 

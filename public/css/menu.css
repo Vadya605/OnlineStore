@@ -1,9 +1,6 @@
 @import '../css/reset.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;800&display=swap');
-
-
-  
   .navigation-block {
     width: 200px;
     display: none;

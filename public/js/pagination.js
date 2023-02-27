@@ -1,7 +1,6 @@
 function pagination(){
     var items=$('.cards .card-product');
     var numItems=items.length;
-    // console.log(items.length);
     var perPage=9;
     items.slice(perPage).hide();
 

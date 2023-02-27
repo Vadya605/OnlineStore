@@ -13,8 +13,6 @@ class Cart
         return $products;
     }
 
-
-
     public static function addProduct($user_id, $product_id){
         $product= DB::select('select id from cart where product_id=? and user_id=?', [$product_id, $user_id]);
         
@@ -30,10 +28,6 @@ class Cart
     public static function increaseAmountProduct($user_id, $product_id){
         DB::update("update cart set amount=amount+1 where user_id=? AND product_id=?", [$user_id, $product_id]);
     }
-
-    // public static function reduceAmountProduct($product_id_in_cart){
-    //     DB::update("update cart set amount=amount-1 where id=? AND amount>1", [$product_id_in_cart]);
-    // }
 
     public static function reduceAmountProduct($user_id, $product_id){
         DB::update("update cart set amount=amount-1 where user_id=? AND product_id=? AND amount>1", [$user_id, $product_id]);

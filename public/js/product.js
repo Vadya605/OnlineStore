@@ -1,15 +1,11 @@
-
-
 let owlImages=$("div.image .owl-carousel");
 
 owlImages.owlCarousel({
     autoWidth:true,
-    // loop:true,
     margin:0,
     items:1, 
     responsive:{
         430:{
-            // items:3
             margin: 20
         }
     }
@@ -77,10 +73,7 @@ $('.add-to-favourites').click(function(){
         });
         isInFavorites=0;
         $(this).css('fill', 'none');
-    }
-    
-    
-    
+    } 
 });
 
 $('.btn-cart button, .button-add-cart').click(function(){
@@ -161,9 +154,6 @@ function addReview(text){
     )
 }
 
-// $('.')
-
-
 
 $('.item').click(function(){
     $('.active-item').removeClass('active-item');
@@ -200,7 +190,6 @@ $('.star').click(function(){
 })
 
 
-// $('.owl-carousel.for-images .owl-item').attr('style', 'width:162px');
 
 var isClickCharacteristic=false;
 $('.characteristic').click(function(){

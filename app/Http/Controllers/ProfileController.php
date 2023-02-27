@@ -19,9 +19,6 @@ use App\Http\Services\User,
 
 class ProfileController extends Controller
 {
-    /**
-     * Display the user's profile form.
-     */
     public function edit(Request $request)
     {   
         $userId=auth()->user()->id;
@@ -34,9 +31,6 @@ class ProfileController extends Controller
         ]);
     }
 
-    /**
-     * Update the user's profile information.
-     */
     public function update(Request $request)
     {
         User::updateData(
@@ -47,21 +41,8 @@ class ProfileController extends Controller
                 $request->surname
             );
         return response('Данные обновленны', 200);
-
-        // $request->user()->fill($request->validated());
-
-        // if ($request->user()->isDirty('email')) {
-        //     $request->user()->email_verified_at = null;
-        // }
-
-        // $request->user()->save();
-        // return '123';
-        // return Redirect::route('profile.edit')->with('status', 'profile-updated');
     }
-
-    /**
-     * Delete the user's account.
-     */
+    
     public function destroy(Request $request): RedirectResponse
     {
         $request->validateWithBag('userDeletion', [

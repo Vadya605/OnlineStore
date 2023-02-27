@@ -9,6 +9,6 @@ class AddressController extends Controller
 {
     public function appendAddress(Request $request){
         Address::addAddress(auth()->user()->id, $request->country, $request->city, $request->address);
-        return 'Адрес добавлен';
+        return response('Адресс добавлен', 200);
     }
 }

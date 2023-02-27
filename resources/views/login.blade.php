@@ -2,9 +2,7 @@
 <html>
 <head>
 	<title>Login</title>
-	{{-- <link rel="stylesheet" type="text/css" href="slide navbar style.css"> --}}
     <link rel="stylesheet" href="/css/login.css">
-{{-- <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet"> --}}
 </head>
 <body>
 	<div class="main"> 

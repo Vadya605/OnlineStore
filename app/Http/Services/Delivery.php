@@ -16,9 +16,7 @@ class Delivery
     }
 
     public static function addProductToDelivery($userId, $productId, $amount){
-        $date = strtotime('+3 days');
-        // echo date('Y-m-d', $date);
-        $deliveryDate=date('Y-m-d', $date);
+        $deliveryDate=date('Y-m-d', strtotime('+3 days'));
         DB::insert('INSERT INTO delivery (product_id, user_id, delivery_date, amount) VALUES(?, ?, ?, ?)', [
             $productId, 
             $userId,
