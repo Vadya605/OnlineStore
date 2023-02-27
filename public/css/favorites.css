@@ -1,0 +1,129 @@
+@import '../css/reset.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;800&display=swap');
+
+
+body{
+    background-color: #151918;
+    font-family: 'Montserrat';
+
+}
+
+.header{
+    padding-bottom: 25px;
+}
+
+/* .container{
+    background-color: #16C19D;
+} */
+
+.selected-product{
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.selected-product .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+
+
+
+
+
+
+
+
+.cards-products{
+    max-width: 626px;
+    width: 100%;
+}
+ 
+
+.card-product{
+    background-color: #36383C;
+    border-radius: 20px;
+    max-width: 626px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.container-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    /* background-color: #000; */
+    max-width: 586px;
+    width: 100%;
+}  
+
+.container-card div{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    /* justify-content: space-between; */
+}
+
+.photo-product{
+    width: 71px;
+}
+
+.title-and-image{
+    max-width: 380px;
+    /* background-color: aqua; */
+}
+
+.title-product{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.plus{
+    border-radius: 20px;
+    width: 15px;
+}
+
+.minus{
+    width: 15px;
+}
+
+.count{
+    font-size: 16px;
+    font-weight: 400;
+    width: 33px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+}
+
+.price{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.btn-delete{
+    width: 33px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+}
+
+
+.profile-cart{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+}

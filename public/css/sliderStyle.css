@@ -1,0 +1,61 @@
+:root {
+    --swiper-navigation-color: #505ACC;
+}
+.slider {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+.swiper-wrapper {
+    padding: 10px;
+}
+.swiper-container-horizontal > .swiper-scrollbar {
+    border-radius: 2px;
+    height: 5px;
+    width: 200px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.swiper-button-prev, .swiper-button-next, .swiper-scrollbar-horizontal {
+    position: unset !important;
+}
+.swiper-controll {
+    width: 100%;
+    display: flex;
+    /* justify-content: flex-end; */
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 0 10px;
+}
+.swiper-buttons {
+    display: flex;
+    gap: 50px;
+}
+.swiper-button-next::after, .swiper-button-prev::after {
+    content: unset !important;
+}
+.trainersSlider .container {
+    max-width: 1300px;
+}
+.trainersSlider .noContent {
+    color: #000 !important;
+    background-color: transparent !important;
+    pointer-events: none;
+  }
+.trainersSlider .swiper-buttons img {
+    max-width: unset;
+}
+.about-right{
+    margin-top: -60px;
+}
+@media (max-width: 800px) {
+  .swiper-slide {
+      margin-top: 15px;
+  }
+  .about-left {
+  	margin-top: 15px;
+  }
+}

@@ -1,0 +1,501 @@
+@media (max-width: 1250px) {
+    header, section, footer {
+        padding: 0 30px !important;
+    }
+}
+@media (max-width: 1135px) {
+    .workWithUs h3 {
+        height: 140px;
+    }
+}
+@media (max-width: 1100px) {
+    header nav {
+        display: none;
+    }
+    .head button {
+        display: none;
+    }
+    #menu {
+        display: block !important;
+    }
+    .consultation .wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .consultation .leftColumn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .consultation .counsultationHeader {
+        width: 100%;
+        text-align: center;
+    }
+    .consultation .contactButtons img {
+        display: none;
+    }
+    .howDoWeWork .leftColumn img {
+        display: none;
+    }
+    .howDoWeWork .howDoWeWorkTitle {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .howDoWeWork .leftColumn {
+        background-image: url("../img/howDoWeWorkAdaptiveImage.svg");
+        background-repeat: no-repeat;
+        background-position-x: 50%;
+        background-position-y: 50%;
+    }
+    .clients .clientsList {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .directors .left-right-column {
+        flex-direction: column;
+        align-items: center;
+    }
+    .directors .right-column {
+        width: 100%;
+        gap: 20px;
+    }
+    .directors .directorSwitcher {
+        display: none;
+    }
+    .directors .directorSwitcherAdaptive {
+        display: flex;
+    }
+    .directors .left-column img {
+        width: 100%;
+    }
+    .services .upperItems, .services .bottomItems {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services .servicesList {
+        flex-direction: row;
+    }
+    .services .serviceItem {
+        width: 50%;
+    }
+    .services .serviceItem span {
+        width: unset;
+    }
+    .activeServiceItem {
+        font-size: 15px !important;
+    }
+    .second .left-right-columns {
+        flex-direction: column;
+        align-items: center;
+    }
+    .second .questionButton img {
+        display: none;
+    }
+    .second img {
+        margin-top: 30px;
+        width: 90%;
+    }
+    .requestConsultation .left-column {
+        width: 100%;
+        align-items: center;
+    }
+    .requestConsultation .yellowCloudsImage {
+        display: none;
+    }
+    .requestConsultation .consultationArrowImage {
+        display: none;
+    }
+    .requestConsultation .inputQuestion, .requestConsultation .questionButton {
+        justify-content: center;
+        align-items: center;
+    }
+    .requestConsultation .wrapper {
+        border-radius: 20px;
+    }
+    .directors .left-column {
+        width: 100%;
+    }
+    .plans .name {
+        font-size: 30px !important;
+    }
+    footer .footer-upper {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+    footer .footer-links {
+        width: 100%;
+    }
+    footer .consultation-contacts {
+        width: 100%;
+        align-items: center;
+    }
+}
+@media (max-width: 1000px) {
+    .workWithUs .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .workWithUs .leftColumn, .workWithUs .rightColumn {
+        width: 100%;
+    }
+    .plans .secondblock {
+        display: none !important;
+    }
+    .plans .servicesTitle {
+        flex-direction: column;
+        align-items: center;
+    }
+    .plans .firstblock {
+        border-right: none !important;
+        width: 100% !important;
+    }
+    .plans .aditionalInfoBlock{
+        padding-top: 16px;
+        border-top: 1px dashed #fff;
+
+    }
+    .plans .thirdblock {
+        width: 100% !important;
+        align-items: center !important;
+    }
+    .plans .thirdblock .thirdblock-list {
+        display: none;
+    }
+    .plans .description {
+        text-align: center !important;
+    }
+    .plans .requestHelpButton {
+        display: block !important;
+    }
+    .plans .firstService, .plans .secondService, .plans .thirdService, .plans .fourthService, .plans .fifthService {
+        width: 80% !important;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .pricesTableSection .employee {
+        display: none;
+    }
+    .pricesTableSection .priceName {
+        width: 80% !important;
+    }
+    .pricesTableSection .price {
+        width: 15% !important;
+    }
+}
+@media (max-width: 930px) {
+    .plans .wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .calculator .left-right-columns {
+        flex-direction: column;
+        align-items: center;
+    }
+    .calculator .rightColumn {
+        width: 100%;
+    }
+    .calculator .bottom {
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .calculator .bottomItem{
+        padding: 7px 10px;
+    }
+    .calculator .control-group {
+        align-items: center;
+    }
+    .requestConsultation .wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .profit .profitImage, .profit .hideContent {
+        display: none;
+    }
+    .connectWithUs .connectWithUsItem {
+        height: max-content;
+    }
+    .howToStartWorkWithUs .howToStartWorkWithUsItem {
+        width: 48% !important;
+    }
+}
+@media (max-width: 760px) {
+    .howDoWeWork p{
+        display: none;
+    }
+    .show-howDoWeWorkItem{
+        display: block !important;
+    }
+    .calculator .wrapper .left-right-columns .rightColumn {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .calculator .wrapper .left-right-columns .rightColumn .cost{
+        flex-direction: column;
+        padding-bottom: 37px;
+    }
+    .feedback .left-right-columns {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feedback .left-column {
+        width: 100%;
+    }
+    .feedback .right-column {
+        width: 100%;
+    }
+    .rates .ratesTitle {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .rates .ratesButtons {
+        width: 100%;
+        justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background-color: #fff;
+    }
+    .calculator .bottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .button-show-howToStartWorlWithUsItems, .button-show-profitLists-info{
+        display: block;
+    }
+    .howToStartWorkWithUs .howToStartWorkWithUsItem:not(:first-child) {
+        display: none;
+    }
+    .profit p:nth-child(n+5){
+        display: none;
+    }
+    .profit .profitsList{
+        display: none;
+    }
+    .rates .ratePrice span {
+        font-size: 15px;
+    }
+    .profit h3 {
+        font-size: 35px !important;
+    }
+    .services .serviceItem {
+        font-size: 13px;
+    }
+    .howDoWeWork .columns {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .howDoWeWork .leftColumn {
+        height: 250px;
+    }
+    .pricesTableSection {
+        padding: 0 10px !important;
+    }
+    .pricesTableSection .wrapper {
+        padding: 0 0 !important;
+    }
+    .pricesTableSection span {
+        font-size: 20px !important;
+    }
+    .pricesTableSection .price {
+        width: 30% !important;
+    }
+    .pricesTableSection .priceName {
+        width: 60% !important;
+    }
+    .howToStartWorkWithUs .howToStartWorkWithUsItems {
+        flex-direction: column;
+        align-items: center;
+    }
+    .howToStartWorkWithUs .howToStartWorkWithUsItem {
+        width: 100% !important;
+    }
+    .howToStartWorkWithUs .howToStartWorkWithUsItems .lastItem {
+        padding-bottom: 100px;
+    }
+    .tooltip {
+        width: 60vw;
+    }
+    .hide {
+        display: none;
+    }
+    .feedBackContent {
+        flex-direction: column;
+        align-items: center;
+    }
+    .outerFeedback {
+        height: 1320px;
+    }
+    footer .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+        padding: 20px 0;
+    }
+    footer .politics {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    footer .footer-links {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+@media (max-width: 590px) {
+    .caption-consultation{
+        flex-direction: column;
+        align-items: center;
+    }
+    .consultation .contactButtons {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .calculator .leftColumn {
+        padding: 32px 30px;
+    }
+    .howToStartWorkWithUs .headerSpan {
+        font-size: 40px;
+    }
+    .howToStartWorkWithUs h3 {
+        font-size: 19px;
+        line-height: 30px;
+    }
+    .profit h3 {
+        font-size: 33px !important;
+    }
+    .requestConsultation .inputQuestion {
+        flex-direction: column;
+        align-items: center;
+    }
+    .requestConsultation .wrapper {
+        padding: 30px 20px;
+    }
+    .requestConsultation .getConsultationButton {
+        width: 100%;
+    }
+    .requestConsultation .nameInput, .requestConsultation .phoneInput {
+        width: 100%;
+    }
+    .profit .profitsList {
+        width: 100%;
+    }
+    .profit .profitsList ul {
+        width: 100%;
+    }
+    .howDoWeWork h3 {
+        font-size: 30px;
+    }
+    .workWithUs .benefitItem img { 
+        width: 40%;
+    }
+    .workWithUs .benefitItem span {
+        font-size: 15px;
+    }
+    .workWithUs .benefitItem p {
+        font-size: 12px;
+    }
+    .workWithUs .negativeItem span {
+        font-size: 15px;
+    }
+    .workWithUs .negativeItem p {
+        font-size: 11px;
+    }
+    .workWithUs .rightColumn h3 {
+        height: fit-content;
+    }
+    .consultation .counsultationHeader {
+        font-size: 25px;
+    }
+    .consultation .orderServiceButton {
+        width: 260px
+    }
+    .consultation .leftColumn {
+        gap: 0;
+    }
+    .consultation .wrapper {
+        padding: 25px 10px;
+    }
+    .consultation .getConsultationButton {
+        width: 260px;
+    }
+    .consultation .rightColumn img {
+        width: 100%;
+    }
+    .calculator span {
+        text-align: center;
+    }
+    .calculator .nalog {
+        gap: unset;
+    }
+    .calculator .leftColumn {
+        gap: 20px;
+    }
+    .workWithUs .wrapper {
+        gap: 30px;
+    }
+    .directors .upper {
+        flex-direction: column-reverse;
+        padding: 40px 20px 0 20px;
+        align-items: flex-start;
+    }
+    .directors .upper span {
+        font-size: 14px;
+    }
+    .second .title {
+        font-size: 21px;
+        text-align: left;
+        height: 10px;
+        width: 100%;
+    }
+    .second .lower-title {
+        width: 100%;
+        text-align: left;
+        font-size: 18px;
+    }
+    .second .wrapper {
+        padding: 40px 20px;
+    }
+    .plans .titleItem {
+        text-align: center;
+    }
+    .plans .price {
+        font-size: 30px !important;
+    }
+    .plans .name {
+        font-size: 25px !important;
+    }
+    .services .serviceItem {
+        width: 100%;
+    }
+    .rates .rateButton {
+        font-size: 10px;
+    }
+    .connectWithUs .connectWithUsItem {
+        width: 100%;
+    }
+    .howToStartWorkWithUs .lastItem a {
+        width: 100% !important;
+    }
+    .servicesPrice .servicePriceName, .servicesPrice .servicePriceValue {
+        font-size: 18px;
+    }
+    .services .serviceItem span {
+        width: 125px !important;
+    }
+    .tooltip {
+        left: -27vw;
+    }
+    footer .footer-links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,146 @@
+@import '../css/reset.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;800&display=swap');
+
+
+  
+  .navigation-block {
+    width: 200px;
+    display: none;
+    position: absolute;
+    z-index: 10;
+    position: fixed;
+  }
+  .navigation-block.isClick{
+    z-index: 15;
+  }
+  .hamberger-menu {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    transition: all 0.3s ease-out;
+  }
+  
+  .bar.upper-bar {
+    transform: translatey(-10px);
+  }
+  
+  .bar.lower-bar {
+    transform: translatey(10px);
+  }
+  
+  .hamberger-menu,
+  .menu-list {
+    cursor: pointer;
+    position: absolute;
+    z-index: 12;
+  }
+  
+  .menu-list {
+    padding-top: 30px;
+    display: none;
+    width: 150px;
+  }
+  
+  .menu-list > ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+  
+  .menu-list > ul > li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    border-bottom: solid 1px rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  .menu-list > ul > li a:hover {
+    background-color: rgba(0,0,0,0.2);
+    /* animation: linkAnimation 0.2s ease-out; */
+  }
+  
+  .menu-background {
+    width: 500px;
+    height: 500px;
+    /* position: fixed; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: #36383C;
+    transform: translate(-100%, -100%);
+    transition: all 0.3s ease-out;
+    border-radius: 100%;
+  }
+  
+  .navigation-block.isClick .bar.upper-bar,
+  .navigation-block.isClick .bar.lower-bar {
+    transform: translatey(0px);
+  }
+  
+  .navigation-block.isClick .bar.upper-bar {
+    transform: rotate(45deg);
+  }
+  
+  .navigation-block.isClick .bar.lower-bar {
+    transform: rotate(-45deg);
+  }
+  
+  .navigation-block.isClick .bar.middle-bar {
+    transform: translatex(-1000px);
+  }
+  
+  .navigation-block.isClick .menu-list {
+
+    display: block;
+  }
+  
+  .navigation-block.isClick .menu-background {
+    animation: bubblePresent 0.3s ease-out;
+    transform: translate(-50%, -30%);
+  }
+  
+  @keyframes linkAnimation {
+    0% {
+      /*transform: translateX(50px);*/
+      transform: scale(1.1);
+    }
+    80% {
+      /*transform: translateX(-10px);*/
+      transform: scale(0.9);
+    }
+    100% {
+      /*transform: translateX(0px);*/
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes bubblePresent {
+    0% {
+      transform: translate(-100%, -100%);
+    }
+    80% {
+      transform: translate(-45%, -25%);
+    }
+    100% {
+      transform: translate(-50%, -30%);
+    }
+  }
+  
+  .author {
+    font-size: 20px;
+    color: #ffffff;
+    float: right;
+  }

@@ -1,0 +1,74 @@
+@import '../css/reset.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;800&display=swap');
+
+
+body{
+    background-color: #151918;
+    font-family: 'Montserrat';
+
+}
+
+.header{
+    margin-bottom: 25px;
+}
+
+/* .container{
+    background-color: #16C19D;
+} */
+
+.section-main{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-main .container{
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* max-width: 665px; */
+    width: 665px;
+    /* background-color: #fff; */
+    background-image: url('../img/phone.png');
+    background-repeat: no-repeat;
+    height: 329px;
+}
+
+.logo-in-phone{
+    margin-top: 30px;
+}
+
+.logo-in-phone .title{
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.text{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.code{
+    font-weight: 700;
+    font-size: 140px;
+}
+
+
+.profile-cart{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,66 @@
+@import '../css/reset.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;800&display=swap');
+
+
+.footer{
+    background-color: #151918;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.footer-information{
+    padding-top: 47px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-list .list-header{
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.footer-list .list{
+    margin-top: 25px;
+}
+.footer-list .list li{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.footer-list .list a{
+    color: rgba(255, 255, 255, 0.5);
+    transition: .2s ease-in-out;
+}
+
+.footer-list .list a:hover{
+    color:#fff;
+}
+
+.logo-footer{
+    width: 100px;
+    padding-top: 25px;
+}
+
+.logo-footer h1{
+    
+    font-size: 30px;
+    font-weight: 700;
+
+
+    background: linear-gradient(102.87deg, #16C19D 20.8%, rgba(7, 120, 153, 0) 90.22%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.item-footer-list:hover{
+    color: #fff;
+}
